@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Loan Data App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 1.2em;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            color: #444;
+        }
+        nav {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #007BFF;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .dataset-link {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .dataset-link:hover {
+            background-color: #0056b3;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>About the Loan Data App</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/data">View Loan Data</a>
+        <a href="/about">About</a>
+    </nav>
+    <p>This app provides insights into loan data, allowing users to explore various attributes related to loan applications and their approval status.</p>
+
+    <h2>Data Description</h2>
+    <ul>
+        <li><strong>Loan_ID:</strong> Unique identifier for each loan.</li>
+        <li><strong>Gender:</strong> Gender of the applicant.</li>
+        <li><strong>Married:</strong> Applicant's marital status.</li>
+        <li><strong>Dependents:</strong> Number of dependents of the applicant.</li>
+        <li><strong>Education:</strong> Applicant's education level.</li>
+        <li><strong>Self_Employed:</strong> Whether the applicant is self-employed.</li>
+        <li><strong>ApplicantIncome:</strong> Income of the applicant.</li>
+        <li><strong>CoapplicantIncome:</strong> Income of the co-applicant.</li>
+        <li><strong>LoanAmount:</strong> Loan amount requested.</li>
+        <li><strong>Loan_Amount_Term:</strong> Term of the loan (in months).</li>
+        <li><strong>Credit_History:</strong> Credit history of the applicant (1: Good, 0: Poor).</li>
+        <li><strong>Property_Area:</strong> Area type where the property is located.</li>
+        <li><strong>Loan_Status:</strong> Loan approval status (Y: Approved, N: Not Approved).</li>
+    </ul>
+
+    <h2>Dataset Source</h2>
+    <p>The dataset used in this app is sourced from Kaggle. You can access it using the link below:</p>
+    <a href="https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data?resource=download" target="_blank" class="dataset-link">
+        Loan Approval Classification Data on Kaggle
+    </a>
+</body>
+</html>
